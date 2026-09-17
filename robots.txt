@@ -12,4 +12,4 @@ Allow: /
 User-agent: Daum
 Allow: /
 
-Sitemap: https://moani.pages.dev/sitemap.xml
+Sitemap: https://lskd0726-gif.github.io/sitemap.xml
