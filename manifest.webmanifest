@@ -1,0 +1,15 @@
+{
+  "name": "모아니 - 보고 싶은 애니를 모으는 곳",
+  "short_name": "모아니",
+  "description": "어디서 볼 수 있는지, 다음 화는 언제인지. 담은 애니의 방송 알림까지.",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0B0D",
+  "theme_color": "#0A0B0D",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
