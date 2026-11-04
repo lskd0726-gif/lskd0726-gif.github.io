@@ -20,7 +20,7 @@ self.addEventListener('push', (event) => {
     data = { body: event.data ? event.data.text() : '' };
   }
   // 알림을 띄우지 않는 푸시는 브라우저가 막는다(userVisibleOnly) — 내용이 비어도 늘 하나는 띄운다.
-  event.waitUntil(self.registration.showNotification(data.title || '애니조아', {
+  event.waitUntil(self.registration.showNotification(data.title || '애니마블', {
     body: data.body || '담은 애니의 방송이 곧 시작돼요',
     icon: '/icon-192.png',
     badge: '/icon-192.png',

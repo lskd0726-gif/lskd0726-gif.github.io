@@ -1,4 +1,4 @@
-# 애니조아 — 수집 규칙
+# 애니마블 — 수집 규칙
 # 이 파일은 scripts/build-sitemap.mjs 가 만든다. 직접 고치지 말 것.
 
 User-agent: *
