@@ -31,9 +31,12 @@ self.addEventListener('push', (event) => {
 });
 
 // 알림을 누르면 그 작품 상세로. 이미 열린 모아니 창이 있으면 그 창을 쓴다.
+// from=push 를 붙여 상세가 「어디서 볼 수 있나」 를 맨 위에 보여 주게 한다(2026-11-05 사용자 「저걸 누르면 어디서 볼 수 있는지 나타내줘」).
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
-  const url = new URL((event.notification.data && event.notification.data.url) || '/', self.location.origin).href;
+  const target = new URL((event.notification.data && event.notification.data.url) || '/', self.location.origin);
+  if (target.pathname.startsWith('/anime/')) target.searchParams.set('from', 'push');
+  const url = target.href;
   event.waitUntil((async () => {
     const windows = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
     for (const client of windows) {
