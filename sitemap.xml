@@ -31,6 +31,12 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://anijoa.com/bookmark-guide</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://anijoa.com/anime/1</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
