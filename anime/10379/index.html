@@ -55,7 +55,12 @@
 .sb dd{margin:0}
 .sb ul{padding-left:20px;margin:0}
 .sb footer{margin-top:40px;font-size:13px;color:#9097AD}
+html.app-loading #root>.sb{visibility:hidden}
+html.app-loading body::before{content:"";position:fixed;top:0;right:0;bottom:0;left:0;background:#0A0B0D}
+html.app-loading body::after{content:"";position:fixed;left:50%;top:50%;width:28px;height:28px;margin:-14px 0 0 -14px;border-radius:50%;border:3px solid rgba(255,255,255,.14);border-top-color:#4D8DFF;animation:sb-spin .8s linear infinite}
+@keyframes sb-spin{to{transform:rotate(360deg)}}
 </style>
+<script id="static-body-splash">(function(){var d=document.documentElement;d.classList.add('app-loading');function done(){d.classList.remove('app-loading')}var t=setTimeout(done,12000);function watch(){var r=document.getElementById('root');if(!r||!r.querySelector('.sb')){clearTimeout(t);done();return}var o=new MutationObserver(function(){if(!r.querySelector('.sb')){clearTimeout(t);o.disconnect();done()}});o.observe(r,{childList:true})}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',watch)}else{watch()}})();</script>
 </head>
 
   <body>
@@ -65,6 +70,6 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"><main class="sb"><nav aria-label="사이트 메뉴"><strong><a href="/">애니마블</a></strong><a href="/discover">전체 애니</a><a href="/museum">애니 박물관</a><a href="/leaving-soon">곧 내려가요</a><a href="/search">검색</a></nav><article><h1>나츠메 우인장 3기</h1><p class="sub">夏目友人帳 参</p><h2>작품 소개</h2><p>2011년 공개된 TV 시리즈로, 브레인즈 베이스가 만들었어요. 한국에서는 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙, 크런치롤에서 볼 수 있어요.</p><h2>기본 정보</h2><dl><dt>형식</dt><dd>TV 시리즈</dd><dt>공개</dt><dd>2011년 7월 5일</dd><dt>상태</dt><dd>방영 완료</dd><dt>화수</dt><dd>13화</dd><dt>장르</dt><dd>드라마, 판타지, 일상, 초자연</dd><dt>제작사</dt><dd>브레인즈 베이스</dd><dt>연령 등급</dt><dd>15세 이상</dd><dt>평점</dt><dd>IMDb 8.1 (3,350명)</dd></dl><h2>어디서 볼 수 있나요?</h2><ul><li>라프텔 — 구독으로 볼 수 있어요</li><li>넷플릭스 — 구독으로 볼 수 있어요</li><li>왓챠 — 구독으로 볼 수 있어요</li><li>웨이브 — 구독으로 볼 수 있어요</li><li>티빙 — 구독으로 볼 수 있어요</li><li>크런치롤 — 구독으로 볼 수 있어요</li></ul><h2>나츠메 우인장 시리즈</h2><ul><li><a href="/anime/4081">나츠메 우인장 1기</a> <span class="sub">본편 · TV 시리즈 · 2008년</span></li><li><a href="/anime/5300">나츠메 우인장 2기</a> <span class="sub">본편 · TV 시리즈 · 2009년</span></li><li><a href="/anime/11665">나츠메 우인장 4기</a> <span class="sub">본편 · TV 시리즈 · 2012년</span></li><li><a href="/anime/21710">나츠메 우인장 5기</a> <span class="sub">본편 · TV 시리즈 · 2016년</span></li><li><a href="/anime/97983">나츠메 우인장 6기</a> <span class="sub">본편 · TV 시리즈 · 2017년</span></li><li><a href="/anime/166611">나츠메 우인장 7기</a> <span class="sub">본편 · TV 시리즈 · 2024년</span></li><li><a href="/anime/20478">나츠메 우인장 언젠가 눈 오는 날에</a> <span class="sub">OVA / OAD · OVA · 2014년</span></li><li><a href="/anime/99363">나츠메 우인장 5기 특별편</a> <span class="sub">스페셜 · 2017년</span></li><li><a href="/anime/100283">나츠메 우인장 6기 특별편</a> <span class="sub">스페셜 · 2017년</span></li><li><a href="/anime/184762">나츠메 우인장 7기: 뻗은 손은</a> <span class="sub">스페셜 · 2025년</span></li><li><a href="/anime/100268">극장판 나츠메 우인장: 세상과 연을 맺다</a> <span class="sub">극장판 · 2018년</span></li><li><a href="/anime/124132">나츠메 우인장 돌 깨우기와 수상한 방문자</a> <span class="sub">극장판 · 2021년</span></li><li><a href="/anime/154978">이치방쿠지 나츠메 우인장 냥코 선생과 꽃 찾기</a> <span class="sub">외전 / 스핀오프 · ONA · 2021년</span></li><li><a href="/anime/188619">나츠메 우인장 × 구마모토현 「히토요시·구마에서의 다정한 시간」</a> <span class="sub">외전 / 스핀오프 · ONA · 2021년</span></li></ul></article><footer><p>애니마블은 한국에서 볼 수 있는 애니메이션을 찾아 OTT별 시청 정보를 한곳에 모으는 서비스입니다. 시청 정보 마지막 확인: 2026-11-13 (한국 기준). 판권은 수시로 바뀌어 실제와 다를 수 있습니다. 작품 기본 정보 출처: AniList · 시청 정보 출처: JustWatch · 라프텔 · 웨이브 · 티빙 · 크런치롤.</p><p><a href="/about">애니마블 소개</a> · <a href="/privacy">개인정보처리방침</a> · <a href="/bookmark-guide">책갈피 사용법</a></p></footer></main></div>
-  <script src="/expo-static/static/js/web/entry-e86239e2b9174ff9e91dcf54a5edee9e.js" defer></script>
+  <script src="/expo-static/static/js/web/entry-6ef93b751489d1cec392cfbeaad680b8.js" defer></script>
 </body>
 </html>
