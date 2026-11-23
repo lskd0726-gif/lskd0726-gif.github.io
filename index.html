@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>애니마블 - 보고 싶은 애니를 모으는 곳</title>
+    <title>애니마블 - 애니 어디서 봐? OTT 한 번에 찾기</title>
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
       /* These styles make the body full-height */
@@ -24,21 +24,21 @@
       }
     </style>
   <meta name="theme-color" content="#0B0D16">
-<meta name="description" content="애니를 검색하고 보고 싶은 작품을 나만의 리스트에 담는 모바일 웹 서비스">
+<meta name="description" content="보고 싶은 애니가 라프텔 · 넷플릭스 · 티빙 · 웨이브 · 왓챠 · 디즈니+ 중 어디에 있는지 한 번에 찾아 줍니다. 작품마다 볼 수 있는 OTT를 모아 두고, 곧 내려가는 작품도 알려 드려요.">
 <link rel="manifest" href="/manifest.webmanifest" /><link rel="apple-touch-icon" href="/apple-touch-icon.png" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-title" content="모아니" /><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3384579611915540" crossorigin="anonymous"></script><!-- og:start 링크 미리보기 — scripts/build-og.mjs 가 넣는다. 직접 고치지 마세요. -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="애니마블">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:url" content="https://anijoa.com/">
-<meta property="og:title" content="애니마블 — 보고 싶은 애니를 모으는 곳">
-<meta property="og:description" content="애니를 검색하고 보고 싶은 작품을 나만의 리스트에 담는 모바일 웹 서비스. 라프텔·넷플릭스·티빙·웨이브 시청 정보를 한 번에 봅니다.">
+<meta property="og:title" content="애니마블 — 애니 어디서 봐? OTT 한 번에 찾기">
+<meta property="og:description" content="보고 싶은 애니가 라프텔 · 넷플릭스 · 티빙 · 웨이브 · 왓챠 · 디즈니+ 중 어디에 있는지 한 번에 찾아 줍니다. 작품마다 볼 수 있는 OTT를 모아 두고, 곧 내려가는 작품도 알려 드려요.">
 <meta property="og:image" content="https://anijoa.com/og-default.png?v=c3604061">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="애니마블 — 보고 싶은 애니를 모으는 곳">
+<meta property="og:image:alt" content="애니마블 — 애니 어디서 봐? OTT 한 번에 찾기">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="애니마블 — 보고 싶은 애니를 모으는 곳">
-<meta name="twitter:description" content="애니를 검색하고 보고 싶은 작품을 나만의 리스트에 담는 모바일 웹 서비스. 라프텔·넷플릭스·티빙·웨이브 시청 정보를 한 번에 봅니다.">
+<meta name="twitter:title" content="애니마블 — 애니 어디서 봐? OTT 한 번에 찾기">
+<meta name="twitter:description" content="보고 싶은 애니가 라프텔 · 넷플릭스 · 티빙 · 웨이브 · 왓챠 · 디즈니+ 중 어디에 있는지 한 번에 찾아 줍니다. 작품마다 볼 수 있는 OTT를 모아 두고, 곧 내려가는 작품도 알려 드려요.">
 <meta name="twitter:image" content="https://anijoa.com/og-default.png?v=c3604061">
 <!-- og:end -->
 <link rel="canonical" href="https://anijoa.com/">
@@ -70,11 +70,11 @@ html.app-loading body::after{content:"";position:fixed;left:50%;top:50%;width:28
       You need to enable JavaScript to run this app.
     </noscript>
     <!-- The root element for your Expo app. -->
-    <div id="root"><main class="sb"><nav aria-label="사이트 메뉴"><strong><a href="/">애니마블</a></strong><a href="/guides">가이드</a><a href="/discover">전체 애니</a><a href="/museum">애니 박물관</a><a href="/leaving-soon">곧 내려가요</a><a href="/search">검색</a></nav><article><h1>애니마블 — 보고 싶은 애니를 모으는 곳</h1>
+    <div id="root"><main class="sb"><nav aria-label="사이트 메뉴"><strong><a href="/">애니마블</a></strong><a href="/guides">가이드</a><a href="/discover">전체 애니</a><a href="/museum">애니 박물관</a><a href="/leaving-soon">곧 내려가요</a><a href="/search">검색</a></nav><article><h1>애니마블 — 애니 어디서 봐? OTT 한 번에 찾기</h1>
 <p>애니마블은 보고 싶은 애니메이션이 한국의 어느 OTT에 있는지 한 번에 찾아 주는 서비스입니다. 라프텔 · 넷플릭스 · 왓챠 · 웨이브 · 티빙 · 디즈니+ · 크런치롤의 제공 정보를 작품마다 모아 두고, 판권이 바뀌면 다시 확인해 고칩니다.</p>
 <p>작품을 검색해 보관함에 담아 두고, 이번 분기 방영작의 한국 시간 방영 시각, 곧 서비스가 끝나는 작품, 시리즈 전체의 시청 순서를 볼 수 있습니다. 로그인 없이 쓸 수 있습니다.</p>
 <h2>가이드</h2><ul><li><p><a href="/guide/jujutsu-kaisen-watch-order"><strong>주술회전 보는 순서 — 1기부터 사멸회유까지</strong></a></p><p>TV 3개 시즌과 극장판 3편을 어떤 순서로 보면 되는지, 건너뛰어도 되는 작품은 무엇인지 정리했어요.</p></li></ul>
 <h2>많이 찾는 작품</h2><ul><li><a href="/anime/16498">진격의 거인</a> (2013) — 라프텔, 왓챠, 웨이브, 티빙</li><li><a href="/anime/101922">귀멸의 칼날</a> (2019) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙</li><li><a href="/anime/113415">주술회전</a> (2020) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙</li><li><a href="/anime/1535">데스노트</a> (2006) — 라프텔</li><li><a href="/anime/21459">나의 히어로 아카데미아</a> (2016) — 라프텔, 넷플릭스, 웨이브, 티빙, 크런치롤</li><li><a href="/anime/11061">헌터×헌터</a> (2011) — 넷플릭스, 왓챠, 웨이브, 티빙</li><li><a href="/anime/21087">원펀맨</a> (2015) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙, 크런치롤</li><li><a href="/anime/21">원피스</a> (1999) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙, 크런치롤</li><li><a href="/anime/20605">도쿄 구울</a> (2014) — 라프텔, 넷플릭스, 웨이브, 티빙</li><li><a href="/anime/20958">진격의 거인 2기</a> (2017) — 라프텔, 왓챠, 웨이브, 티빙</li><li><a href="/anime/5114">강철의 연금술사: 브라더후드</a> (2009) — 라프텔, 왓챠, 웨이브, 티빙</li><li><a href="/anime/20">나루토</a> (2002) — 왓챠</li><li><a href="/anime/11757">소드 아트 온라인</a> (2012) — 라프텔, 웨이브, 티빙</li><li><a href="/anime/20954">목소리의 형태</a> (2016) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙</li><li><a href="/anime/21519">너의 이름은</a> (2016) — 왓챠, 웨이브</li><li><a href="/anime/99147">진격의 거인 3기</a> (2018) — 라프텔, 웨이브, 티빙</li><li><a href="/anime/21856">나의 히어로 아카데미아 2기</a> (2017) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙, 크런치롤</li><li><a href="/anime/110277">진격의 거인 파이널 시즌</a> (2021) — 라프텔, 웨이브</li><li><a href="/anime/127230">체인소 맨</a> (2022) — 라프텔, 넷플릭스, 왓챠, 웨이브, 티빙</li><li><a href="/anime/101759">약속의 네버랜드</a> (2019) — 라프텔, 웨이브, 티빙</li></ul></article><footer><p>애니마블은 한국에서 볼 수 있는 애니메이션을 찾아 OTT별 시청 정보를 한곳에 모으는 서비스입니다. 시청 정보 마지막 확인: 2026-11-18 (한국 기준). 판권은 수시로 바뀌어 실제와 다를 수 있습니다. 작품 기본 정보 출처: AniList · 시청 정보 출처: JustWatch · 라프텔 · 웨이브 · 티빙 · 크런치롤.</p><p><a href="/guides">가이드</a> · <a href="/about">애니마블 소개</a> · <a href="/privacy">개인정보처리방침</a> · <a href="/bookmark-guide">책갈피 사용법</a></p></footer></main></div>
-  <script src="/expo-static/static/js/web/entry-1b744f15472b1b042874d9c0ed1b121f.js" defer></script>
+  <script src="/expo-static/static/js/web/entry-203535af7f7f843cd3a5553014c6d420.js" defer></script>
 </body>
 </html>
