@@ -43,6 +43,18 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://anijoa.com/guides</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://anijoa.com/guide/jujutsu-kaisen-watch-order</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://anijoa.com/anime/1</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
